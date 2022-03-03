@@ -29,7 +29,7 @@ class Header extends React.Component{
            
 
         <div>
-            <h1>header</h1>
+            <h1>header thay đổi nè</h1>
             
         </div>
 
