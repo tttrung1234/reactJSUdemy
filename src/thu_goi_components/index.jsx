@@ -13,7 +13,7 @@ function ThuComponents(props) {
         },
         { 
             id : 2,
-            title : 'blue'
+            title : 'bluee'
         },
         { 
             id : 3,
