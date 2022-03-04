@@ -1,50 +1,13 @@
 import React from 'react';
+import ThuComponents from './thu_goi_components';
 
 
-class App extends React.Component {
-    
-    
-   render() {
-      
-      return (
-          
-         <div>
-
-             <Header/>
-             <Content/>
-         </div>
-       
-         
-      );
-   }
-
-}
-
-
-
-
-class Header extends React.Component{
-    render() {
-        return(
-           
-
-        <div>
-            <h1>header thay đổi nè</h1>
-            
+function App() {
+    return (
+        <div className="App">
+           <ThuComponents/>
         </div>
-
-        );
-    }
-}
-
-class Content extends React.Component{
-    render() {
-        return(
-            <div>
-                <h1>content</h1>
-            </div>
-        );
-    }
+    )
 }
 
 
